@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:600|Playfair+Display&display=swap');
+
+.body{
+    margin:0px;
+}
+
+.container{
+    display: flex;
+    align-items: center; 
+}
+
+.part_one{
+    flex:1;
+    text-align: center;
+}
+
+.part_two{
+    flex:9;
+    margin: auto;
+    text-align: center;
+}
+
+.part_three{
+    flex:1;
+    text-align: center;
+}
+
+.background{
+    background-image: url("../Images/EggsFlower.png");
+    background-size: cover;
+    padding: 30px;
+    margin: 0px;
+ 
+}
+
+.fp{  
+    color: #000000;
+    text-align: center;
+    font-size:25px;
+
+}
+h1{
+    color: #FFFFFF;
+    text-align: center;
+    font-size:25px;
+   
+}
+
+.sentence_button{
+    text-align: center;
+}
+
+h2{
+    color:rgb (30,30,30);
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+/*rgb (30,30,30)*/
+h3,h4{
+    color:rgb (30,30,30);
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family:'Muli', sans-serif;
+}
+
+ul{
+    font-family:'Muli', sans-serif;
+    line-height: 25px;
+}
+
+
+/*rgb (128,0,128)*/
+.purple{
+    color:purple;
+}
+
+.sentence_home{
+    text-align: center;
+}
+
+/*rgb (128,105,105)*/
+footer{
+    background-color: rgb(128, 105, 105);
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    font-family:'Muli', sans-serif;
+    font-weight: 300;
+}
+
+a:link{
+    color: rgb(15, 136, 41)
+}
+
+a:visited{
+    color: #E54548;
+}
+
+a:focus{
+    color: #FFFFFF;
+    background-color: #E54548;
+}
+
+a:hover {
+    font-weight:bold;
+}
+
+a:active{
+    color: #404040;
+    background-color:#FFFFFF;
+}
+
+.button{
+    outline:none;
+    text-decoration:none;
+    font-family:'Mula', sans-serif;
+    font-size: 15px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+ 
+}
+
+.button:link {
+    color:#FFFFFF;
+}
+
+.button:visited{
+    color: #FFFFFF;
+}
+
+.button:focus{
+    color: #FFFFFF;
+    background-color: #AC3436
+}
+
+.button:hover{
+    background-color: rgba(229, 69, 72, 0.8);
+}
+
+.button:active{
+    background-color: #AC3436;
+}
+
+.bottom_pics{
+    border-radius: 25%;
+}   
+
+.bottom_pics:hover{
+    opacity:0.5;
+    
+}
+
+table, th, td{
+    border: 1px solid #404040;
+    border-collapse: collapse;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-family: 'Muli', sans-serif;
+}
+
+th{
+    background-color: #AC3436;
+    color: #FFFFFF;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.upper_row{ 
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+       
+}
+
+.middle_row{ 
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+   
+}
+
+.bottom_row{ 
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+   
+}
+
+.first_item{
+    flex:1;
+}
+.second_item{
+    flex:1;
+}
+.third_item{
+    flex:1;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-gap: 10px;
+}
+
+.required{
+    color:red;
+}
+
+.form_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.space{
+margin:10px;
+}

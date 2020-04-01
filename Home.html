@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="Style/Cookit.css">
     <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,51 +9,65 @@
 </head>
 <body>
 
-    <nav>
-    <a href="Home.html"target="_self">
-        <img src="Images/logo.svg"alt="Chefs hat" width=“50”, height="50">
-    </a>
-    <a href="Home.html">Home</a>
-    <a href="#recipes_of_the_month">Recipes of the month</a>
-    <a href="url">Favorite recipes</a>
-    <a href="Contact_us.html">Contact</a>
+    <nav class="container">
 
-    <a href="Home.html"target="_self">
-        <img src="Images/login.svg"alt="Chefs hat" width=“50”, height="50">
-    </a>
+        <div class="part_one">   
+        <a href="Home.html"target="_self">
+            <img src="Images/logo.svg"alt="Chefs hat" width=“25”, height="25">
+        </a>
+    
+        </div> 
+        <div class="part_two"> 
+        <a href="Home.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#recipes_of_the_month">Recipes of the month</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Favorite_recipes.html">Favorite recipes</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Contact_us.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        </div> 
+    
+        <div class="part_three"> 
+        <a href="Home.html"target="_self">
+            <img src="Images/login.svg"alt="Person shape" width=“25”, height="25">
+        </a>
+        </div>
+    
     </nav>
 
-<section>
-    <h1>Welcome to CookIt!&reg;</h1>
+<div class="background">
+    <h1>Welcome to CookIt!&reg; </br> Simple and healthy recipes from breakfast to dinner</h1>
+</div>
 
-    <img src="Images/EggsFlower.png" alt="Eggs and flower">
-
-
-    <h2>Simple and healthy recipes from breakfast to dinner</h2>
-    <p>Here you will find the best recipes for cooking and baking!</p>
+<section class="sentence_button">
+<p> Here you will find the best recipes for cooking and baking!</p>
+<a href="Favorite_recipes.html" class="button">Favorite recipes</a>
 </section>
 
-<section>
-    <h2 id="recipes_of_the_month">Recipes of the month</h2>
+<h2 id="recipes_of_the_month">Recipes of the month</h2>
 
+<section class="upper_row">
+    <div class="first_item">
     <a href="Peanut_butter.html"target="_blank">
-        <img src="Images/Oatmeal.png" alt="Peanut">
+        <img class=bottom_pics  src="Images/Oatmeal.png" alt="Peanut">
     </a>
+    </div>
 
+    <div class="second_item">
     <a href="Spaghetti_carbonara.html"target="_blank">
-        <img src="Images/Spaghetti.png"alt="Spaghetti">
+        <img class=bottom_pics src="Images/Spaghetti.png"alt="Spaghetti">
     </a>
+    </div>
 
+    <div class="third_item">
     <a href="Chocolate_cookies.html"target="_blank">
-        <img src="Images/Cookie.png"alt="Chocolate">
+        <img class=bottom_pics  src="Images/Cookie.png"alt="Chocolate">
     </a>
+    </div>
 </section>
 
 
     <footer>
         <p>&copy;2020 Changers Hub</p>
-        <p>Designed & developed by David</p>
-        <h3>Useful links</h3>
+        <p>Designed & developed with &hearts; by David</p>
+        <h3 class="purple"> Useful links</h3>
         <a href="Measurement_converter.html"target="_blank">Measurement converter</a>
         <a href="url">Careers</a>
         <a href="Contact_us.html">Contact us</a>

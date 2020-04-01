@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="Style/Cookit.css">
     <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,25 +9,73 @@
 </head>
 <body>
 
-    <nav>
-    <a href="Home.html"target="_self">
-        <img src="Images/logo.svg"alt="Chefs hat" width=“50”, height="50">
-    </a>
-    <a href="Home.html">Home</a>
-    <a href="#recipes_of_the_month">Recipes of the month</a>
-    <a href="url">Favorite recipes</a>
-    <a href="Contact_us.html">Contact</a>
+    <nav class="container">
 
-    <a href="Home.html"target="_self">
-        <img src="Images/login.svg"alt="Chefs hat" width=“50”, height="50">
-    </a>
+        <div class="part_one">   
+        <a href="Home.html"target="_self">
+            <img src="Images/logo.svg"alt="Chefs hat" width=“25”, height="25">
+        </a>
+    
+        </div> 
+        <div class="part_two"> 
+        <a href="Home.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Home.html#recipes_of_the_month">Recipes of the month</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Favorite_recipes.html">Favorite recipes</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Contact_us.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        </div> 
+    
+        <div class="part_three"> 
+        <a href="Home.html"target="_self">
+            <img src="Images/login.svg"alt="Person shape" width=“25”, height="25">
+        </a>
+        </div>
+    
     </nav>
 
     <h2>Contact us</h2>
 
+<div class=form_container>
+    <form>
+        <fieldset>
+            <legend>Personal Info</legend>
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name">
+            </p>
+            <p>
+                <label for="age">Age:</label>
+                <input type="text" id="age" name="user_age">
+            </p>
+            <p>
+                <span class="required">*</span>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="user_mail" required>
+            </p>
+            <h4>What are you contacting us about?</h4>
+
+        <select>
+            <option selected>Question</option>
+            <option>Recipe</option>
+            <option>Recommendation</option>
+            <option>Other</option>
+        </select><br><br>
+
+        <label>Your message</label><br>
+        <textarea cols="30" rows="8"></textarea><br>
+        
+        <input type="checkbox" name="option" value="yes" required>
+        <span class="required">*</span>
+        <label>I agree to terms and conditions</label><br><br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Send">
+
+        </fieldset>
+    </form>
+</div>
+
     <footer>
         <p>&copy;2020 Changers Hub</p>
-        <p>Designed & developed by David</p>
+        <p>Designed & developed with &hearts; by David</p>
         <h3>Useful links</h3>
         <a href="Measurement_converter.html"target="_blank">Measurement converter</a>
         <a href="url">Careers</a>
